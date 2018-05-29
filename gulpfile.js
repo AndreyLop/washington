@@ -62,8 +62,8 @@ gulp.task('architecture-js', function() {
 	.pipe(gulp.dest('dist/js'));
 });
 // architecture end
-// construction start
 
+// construction start
 gulp.task('construction-js', function() {
 	return gulp.src([
 		'src/js/libs/magnific-popup.js',
@@ -73,14 +73,26 @@ gulp.task('construction-js', function() {
 	.pipe(uglify())
 	.pipe(gulp.dest('dist/js'));
 });
-
 // construction end
+
+// day in washington start
+gulp.task('day-in-washington-js', function() {
+	return gulp.src([
+		'src/js/libs/slick.min.js',
+		'src/js/day-in-washington.js',
+		])
+	.pipe(concat('day-in-washington.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// day in washington end
 
 gulp.task('js', [
 	'common-js',
 	'home-js',
 	'architecture-js',
-	'construction-js'], function() {
+	'construction-js',
+	'day-in-washington-js'], function() {
 	return gulp.src([
 		'src/js/common.js',
 		])

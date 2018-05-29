@@ -469,7 +469,7 @@
     <section class="hp-day-in-washington hp-washington-sfera">
 
         <div class="hp-day-in-washington__conent hp-washington-sfera__content hover-ef hover-ef_1">
-            <a href="#">
+            <a href="day-in-washington.php">
                 <div class="hover-ef__overlay">
                     <div class="hover-ef__border">
                         <div class="W-logo W-logo_white W-logo_hover">

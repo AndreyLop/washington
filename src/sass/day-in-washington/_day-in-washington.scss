@@ -1,0 +1,32 @@
+.page-top_diw {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+.diw__slider-item {
+    width: 100%;
+    height: calc(100vh - 76px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.diw__slider-item-0 {background-image: url('../img/diw/0.jpg')}
+.diw__slider-item-1 {background-image: url('../img/diw/1.jpg')}
+.diw__slider-item-2 {background-image: url('../img/diw/2.jpg')}
+.diw__slider-item-3 {background-image: url('../img/diw/3.jpg')}
+.diw__slider-item-4 {background-image: url('../img/diw/4.jpg')}
+.diw__slider-item-5 {background-image: url('../img/diw/5.jpg')}
+.diw__slider-item-6 {background-image: url('../img/diw/6.jpg')}
+.diw__slider-item-7 {background-image: url('../img/diw/7.jpg')}
+.diw__slider-item-8 {background-image: url('../img/diw/8.jpg')}
+.diw__slider-item-9 {background-image: url('../img/diw/9.jpg')}
+.diw__slider-item-10 {background-image: url('../img/diw/10.jpg')}
+
+.progress-bar__wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    z-index: 2;
+    color: red;
+}
