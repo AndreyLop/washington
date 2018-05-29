@@ -1,0 +1,87 @@
+.footer {
+    background-color: $green1;
+    position: relative;
+    z-index: 1;
+}
+.footer__wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 60px 5px;
+    display: flex;
+    justify-content: space-between;
+    li {
+        color: #fff;
+        margin-bottom: 20px;
+
+    }
+    a {
+        &:hover {
+            color: #d2c5c5;
+        }
+    }
+}
+.b-nav__part {
+    width: 25%;
+}
+.b-nav__heading {
+    font-size: 1.25rem;
+    color: #98988e;
+    margin-bottom: 40px;
+}
+
+
+.b-nav__telephone {
+    position: relative;
+    border: 1px solid #d2c5c5;
+}
+
+.b-nav__icon-container {
+    position: absolute;
+    width: 65px;
+    height: 40px;
+    background-color: $green1;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.b-nav__telephone-number-container {
+    margin-top: 40px;
+    text-align: center;
+}
+.b-nav__telephone-number {
+    font-size: 1.5rem;
+}
+.b-nav__telephone-tel {
+    font-size: 1rem;
+}
+.b-nav__icon {
+    margin-top: 10px;
+    height: 20px;
+    fill: $beige1;
+}
+.b-nav__btn-container {
+    text-align: center;
+    margin: 12px 0;
+}
+.b-nav__callback-btn {
+    width: 80%;
+    line-height: 48px;
+    background-color: $beige1;
+}
+
+
+.footer__bottom {
+    background-color: #46483f;
+    height: 97px;
+}
+.footer__bottom-wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__copy {
+    color: #fff;
+}

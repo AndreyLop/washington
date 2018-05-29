@@ -1,0 +1,1008 @@
+// common for home page start
+.W-logo {
+    width: 102px;
+    height: 78px;
+}
+.W-logo_green {
+    fill: rgba($green1, 0.25);
+}
+.W-logo_white {
+    fill: #fff;
+}
+
+.letter_W_left {
+    transition: opacity 1s ease-out; 
+}
+
+.letter_W_right {
+    transition: all 1s ease-out 1s;
+}
+
+.animate {
+    .W-logo_green {
+        .letter_W_left {
+            opacity: 0;
+        }
+        .letter_W_right {
+            opacity: 0;
+            transform: translateX(-50px);
+        }
+    }
+
+}
+
+// hover styles start
+// ==================================================================
+// common visual styles for both versions start
+.hover-ef {
+    position: relative;
+    font-family: 'OpenSans', sans-serif;
+}
+
+.hover-ef__bottom-text {
+    position: absolute;
+    bottom: 5%;
+    left: 40px;
+}
+
+.hover-ef__heading {
+    font-size: 2.375rem;
+    color: #fffefe;
+    font-weight: 300;
+    letter-spacing: 1.9px;
+}
+
+// paragraph
+.hover-ef__paragraph {
+    line-height: 26px;
+    color: #000;
+    margin-top: 15px;
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+.hover-ef__overlay {
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($beige1, 0.9);
+    padding: 0px;
+    opacity: 0;
+}
+
+.hover-ef__border {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+    padding: 0 30px;
+}
+.W-logo_hover {
+    margin-top: 10%;
+    opacity: 0;
+    margin-bottom: 70px;
+    .letter_W_right {
+        transform: translateX(-55px);
+    }
+}
+
+// black box
+.hover-ef__black-box {
+    position: absolute;
+    width: 103px;
+    height: 103px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+.hover-ef__arrow_1 {
+    width: 30px;
+    height: 30px;
+    margin: 20px auto 10px;
+    fill: #fff;
+}
+
+.hover-ef__arrow_2 {
+    stroke: #fff;
+    position: absolute;
+    top: 5px;
+    left: 110%;
+}
+// common visual styles for both versions end
+// Version 1 specific styles
+.hover-ef_1 {
+    overflow: hidden;
+    .hover-ef__black-box {
+        top: 0;
+        right: 0;
+        transform: translateX(100%);
+    }
+}
+
+
+// Version 2 specific styles
+// black box
+.hover-ef_2 {
+    overflow: hidden;
+    .hover-ef__black-box {
+        bottom: calc(0% - 103px);
+        left: calc(0% - 103px);
+        z-index: 1;
+    }
+    .hover-ef__black-box-content {
+        opacity: 0;
+    }
+    .W-logo_hover {
+        .letter_W_right {
+            transform: none;
+        }
+    }
+}
+
+// hover effect start
+.hover-ef {
+    // overlay
+    .hover-ef__overlay {
+        transition-property: opacity, padding;
+    }
+    // bottom text
+    .hover-ef__bottom-text {
+        transition-property: bottom;
+    }
+    .hover-ef__heading {
+        transition-property: color;
+    }
+    // arrow 2
+    .hover-ef__arrow_2 {
+        transition-property: left, top;
+    }
+    // letter W
+    .W-logo_hover {
+        transition-property: opacity;
+        .letter_W_right {
+            transition-property: transform;
+        }
+    }
+    // paragraph 
+    .hover-ef__paragraph {
+        transition-property: opacity, transform;
+    }
+    // version 1 specific hover
+    &.hover-ef_1 {
+        .hover-ef__black-box {
+            transition-property: transform;
+        }
+    }
+
+    &:hover {
+        // overlay
+        .hover-ef__overlay {
+            opacity: 1;
+            padding: 10px;
+        }
+        // bottom text
+        .hover-ef__bottom-text {
+            bottom: 67%;
+        }
+        .hover-ef__heading {
+            color: #000;
+        }
+        // arrow 2
+        .hover-ef__arrow_2 {
+            top: 30px;
+            left: 0%;
+        }
+        .hp-arrow__line {
+            opacity: 0;
+        }
+        // letter w
+        .W-logo_hover {
+            opacity: 1;
+            .letter_W_right {
+                transform: none;
+            }
+        }
+        // paragraph 
+        .hover-ef__paragraph {
+            opacity: 1;
+            transform: none;
+        }
+        // version 1 specific hover
+        &.hover-ef_1 {
+            .hover-ef__black-box {
+                transform: none;
+            }
+        }
+    }
+}
+.hover-ef_1 {
+    $hover1Duration: 0.5s;
+    // overlay
+    .hover-ef__overlay {
+        transition-duration: $hover1Duration, $hover1Duration;
+    }
+    // bottom text
+    .hover-ef__bottom-text {
+        transition-duration: $hover1Duration;
+    }
+    .hover-ef__heading {
+        transition-duration: $hover1Duration;
+    }
+    // arrow 2
+    .hover-ef__arrow_2 {
+        transition-duration: $hover1Duration, $hover1Duration;
+    }
+    // letter W
+    .W-logo_hover {
+        transition-duration: $hover1Duration;
+        transition-delay: 0.3s;
+        .letter_W_right {
+            transition-duration: $hover1Duration;
+            transition-delay: 0.6s;
+        }
+    }
+    // paragraph 
+    .hover-ef__paragraph {
+        transition-duration: $hover1Duration;
+    }
+    .hover-ef__paragraph:nth-child(2) {transition-delay: 0.3s}
+    .hover-ef__paragraph:nth-child(3) {transition-delay: 0.4s}
+    .hover-ef__paragraph:nth-child(4) {transition-delay: 0.5s}
+    .hover-ef__paragraph:nth-child(5) {transition-delay: 0.6s}
+    .hover-ef__paragraph:nth-child(6) {transition-delay: 0.7s}
+
+    // version 1 specific hover
+    &.hover-ef_1 {
+        .hover-ef__black-box {
+            transition-duration: $hover1Duration;
+            transition-delay: 0.3s;
+        }
+    }
+}
+
+// Version 2 speciic
+@keyframes animateBlackBox {
+    0% {
+        bottom: 0%;
+        left: 0%;
+    }
+    50% {
+        transform: scale(7);
+    }
+    100% {
+        bottom: calc(100% - 103px);
+        left: calc(100% - 103px);
+    }
+}
+
+// For full page width blocks
+@keyframes animateBlackBoxFullWidth {
+    0% {
+        bottom: 0%;
+        left: 0%;
+    }
+    50% {
+        transform: scale(13);
+    }
+    100% {
+        bottom: calc(100% - 103px);
+        left: calc(100% - 103px);
+    }
+}
+
+.hover-ef_2 {
+    .hover-ef__black-box-content {
+        transition-duration: 0.1s;
+        transition-delay: 0.1s;
+    }
+    &:hover {
+        .hover-ef__overlay {
+            transition-duration: 0.1s;
+            transition-delay: 0.3s;
+        }
+        .hover-ef__black-box {
+            opacity: 1;
+            animation-name: animateBlackBox;
+            animation-duration: 1s;
+            transition-delay: 0.4s;
+            animation-fill-mode: forwards;
+            animation-play-state: running;
+        }
+        .hover-ef__black-box-content {
+            opacity: 0;
+        }
+        // bottom text
+        .hover-ef__bottom-text {
+            transition-duration: 0.1s;
+            transition-delay: 0.3s;
+        }
+        .hover-ef__heading {
+            transition-delay: 0.3s;
+        }
+        // black box content appear
+        .hover-ef__black-box-content {
+            opacity: 1;
+            transition-duration: 0.5s;
+            transition-delay: 1.2s;
+        }
+    }
+}
+// hover effect end
+// ==================================================================
+
+// hero slider status bar start
+.gallery-status-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gallery-status-bar-container_hero {
+    position: absolute;
+    bottom: 115px;
+    left: 50%;
+    transform: translateX(-50%);
+    .gallery-status-bar {
+        width: 230px;
+    }
+}
+.gallery-status-bar-container_advantages {
+    width: 170px;
+    .gallery-status-bar {
+        width: 92px;
+    }
+}
+.gallery-status-bar-container_values {
+    width: 170px;
+    .gallery-status-bar {
+        width: 92px;
+    }
+}
+.gallery_current-slide,
+.gallery_total-slides {
+    width: 35px;
+    color: #fff;
+}
+.gallery_total-slides {
+    text-align: right;
+}
+.gallery-status-bar {
+    height: 1px;
+    background-color: $green1;
+    position: relative;
+}
+.gallery-status-bar_loaded {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1px;
+    background-color: #fff;
+    transition: width 0.5s;
+}
+// hero slider status bar end
+
+// Gallery prev/next arrows
+.gallery-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: $beige1;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    z-index: 1;
+    transition: background-color 0.4s;
+    .arrow {
+        border: solid #000;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+    }
+    .arrow-next {
+        transform: rotate(-45deg);
+    }
+    .arrow-prev {
+        transform: rotate(135deg);
+    }
+    &:hover {
+        background-color: #fff;
+        cursor: pointer;
+    }
+}
+
+.gallery-arrow_hero {
+    &.gallery-arrow_next {
+        right: 5%;
+    }
+    &.gallery-arrow_prev {
+        left: 5%;
+    }
+}
+
+.gallery-arrow_advantages {
+    transform: none;
+    &.gallery-arrow_next {
+        top: 100px;
+        left: 5%;
+    }
+    &.gallery-arrow_prev {
+        top: 30px;
+        left: 5%;
+    }
+}
+
+.gallery-arrow_values {
+    transform: none;
+    &.gallery-arrow_next {
+        top: 100px;
+        right: 5%;
+    }
+    &.gallery-arrow_prev {
+        top: 30px;
+        right: 5%;
+    }
+}
+.gallery-arrow_projects {
+    &.gallery-arrow_next {
+        right: -7%;
+    }
+    &.gallery-arrow_prev {
+        left: -7%;
+    }
+}
+
+
+// common for main page end
+
+// hero start
+.hero {
+    height:100vh;
+    position: relative;
+}
+// hero gallery start
+.hero__gallery {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+.hero__gallery-item {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/home/hero_gallery/1.jpg');
+}
+//hero gallery end
+.hero__wrapper {
+    height: 100%;
+    position: relative;
+}
+// hero gourment start
+.hero__gourment {
+    position: absolute;
+    left: 0;
+    bottom: 150px;
+    height: 175px;
+    width: calc(100% - 10px);
+    background-color: rgba($green1, 0.9);
+    padding: 5px;
+    display: flex;
+}
+.hero__gourment_left,
+.hero__gourment_right {
+    width: 15%;
+    border: 1px solid rgba($beige1, 0.5);
+}
+.hero__gourment_center {
+    flex: 1;
+    border: 1px solid rgba($beige1, 0.5);
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+.hero__gourment-icon {
+    fill: none;
+    stroke: #fff;
+    margin: 30px auto 0;
+}
+.hero__gourment-icon_kitchen {
+    width: 100px;
+    height: 93px;
+}
+.hero__gourment-icon_consierge {
+    stroke-width: 2;
+    width: 96px;
+    height: 93px;
+}
+.hero__heading {
+    font-size: 2.25rem;
+    font-weight: 300;
+    letter-spacing: 1.8px;
+    color: #fff;
+    margin-top: 20px;
+}
+.hero-btn {
+    line-height: 58px;
+    width: 386px;
+    margin-top: 20px;
+    color: $green1;
+    background-color: $beige1;
+}
+// hero gourment end
+
+@keyframes arrowDown {
+    from {
+        transform: translateY(500px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.down-arrows {
+    width: 20px;
+    height: 70px;
+    fill: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.down-arrow {
+    animation-name: arrowDown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.down-arrow_1 {animation-delay: 0.1s;}
+.down-arrow_2 {animation-delay: 0.2s;}
+// hero end
+
+// about start
+.hp-about {
+    max-width: 1160px;
+    margin: 60px auto 0;
+    height: 725px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/home/hp-about_bg.jpg');
+    position: relative;
+    padding: 10px;
+}
+.hp-about__border {
+    border: 1px solid #fff;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.hp-about__info-lists {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    height: 80%;
+}
+.hp-about__info-list {
+     ul {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+     }
+}
+// item style start
+.hp-about__info-list-item {
+    width: 320px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid rgba($green1, 0.7);
+    position: relative;
+    margin-bottom: 20px;
+}
+// Arrow styles start
+.hp-about__info-list-item_left,
+.hp-about__info-list-item_right {
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        display: inline-block;
+        width: 1px;
+        height: 20px;
+        background-color: rgba($green1, 0.7);
+    }
+    &::before {top: 0;}
+    &::after {bottom: 0;}
+}
+.hp-about__info-list-item_left {
+    border-right: none;
+    &::before,
+    &::after {
+        right: 0;
+    }
+}
+.hp-about__info-list-item_left {
+    &::before {top: 0;}
+}
+.hp-about__info-list-item_left {
+    &::after {bottom: 0;}
+}
+.hp-about__info-list-item_right {
+    border-left: none;
+    &::before,
+    &::after {
+        left: 0;
+    }
+}
+.hp-about__info-list-item_right {
+    &::before {top: 0;}
+}
+.hp-about__info-list-item_right {
+    &::after {bottom: 0;}
+}
+.hp-arrow {
+    position: absolute;
+    top: 50%;
+    border: solid rgba($green1, 0.7);
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.hp-arrow_right {
+    transform: translateY(-50%) rotate(-45deg);
+    right: -4px;
+}
+.hp-arrow_left {
+    transform: translateY(-50%) rotate(135deg);
+    left: -4px;
+}
+// Arrow styles end
+
+.hp-about__info-list-item_main {
+    flex: 1;
+    position: relative;
+}
+.hp-about__logo-text {
+    position: absolute;
+    top: 50%;
+    left:0;
+    transform: translateY(-50%);
+}
+.hp-about__logo-text {
+    display: flex;
+    align-items: center;
+}
+.hp-about__heading {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 300;
+    max-width: 120px;
+    margin-left: 20px;
+}
+// item style end
+// about construction end date
+.hp-about__construction-end {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    line-height: 84px;
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+    width: 100%;
+    background-color: rgba($beige1, 0.8);
+    color: #000;
+    z-index: 1;
+}
+// about construction end date
+// about end
+
+// location start
+.hp-location {
+    max-width: 1160px;
+    margin: 60px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.hp-location__map,
+.hp-location__architecture {
+    width: 47%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hp-location__map {
+    background-image: url('../img/home/hp_map_bg.jpg');
+}
+.hp-location__architecture  {
+    background-image: url('../img/home/hp_architecture_bg.jpg');
+}
+.hp-hover__paragraph_location {
+    max-width: 327px;
+}
+.hp-hover__paragraph_architecture {
+    max-width: 305px;
+}
+// location end 
+
+// advantages start
+.hp-advantages {
+    max-width: 1160px;
+    margin: 60px auto 0;
+    position: relative;
+}
+.hp-advantages__gallery-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 390px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.hp-advantages__gallery-text_top {
+    padding: 40px;
+    height: 325px;
+    background-color: rgba($beige1, 0.9);
+}
+.W-logo_advantages {
+    margin-top: 60px;
+}
+.hp-advantages__heading {
+    font-size: 2.375rem;
+    font-weight: 300;
+    margin-top: 40px;
+}
+.hp-advantages__gallery-text_bottom {
+    padding: 70px 40px;
+    background-color: rgba($green1, 0.9);
+    flex: 1;
+}
+.hp-advantages__gallery-paragraph {
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    line-height: 36px;
+    max-width: 225px;
+    color: #fff;
+}
+// advantages end
+.hp-values {
+    max-width: 1160px;
+    margin: 60px auto 0;
+    position: relative;
+}
+// values start
+.hp-values__gallery-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.hp-values__gallery-text_top {
+    padding: 45px;
+    background-color: $beige1;
+    height: 450px;
+}
+.W-logo_values {
+    margin-top: 65px;
+}
+.hp-values__heading {
+    font-size: 2.375rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 35px;
+    &::after {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 70px;
+        background-color: $green1;
+        margin: 25px 0;
+    }
+}
+.hp-values__paragraph {
+    max-width: 205px;
+    line-height: 26px;
+}
+.hp-values__gallery-text_bottom {
+    background-color: $green1;
+    flex: 1;
+    padding: 32px 42px;
+}
+.hp-values__gallery-sub-heading {
+    font-size: 2.375rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+// values end
+
+// hp-3-items start
+.hp-3-items {
+    max-width: 1160px;
+    margin: 60px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.hp-3-items__left,
+.hp-3-items__right {
+    width: 47%;
+}
+.hp-3-items__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hp-apartments {
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/home/hp_appartmetns_bg.jpg');
+    &:hover {
+        .hover-ef__bottom-text {
+            bottom: 72%;
+        }
+    }
+   
+}
+.hp-infrastructure,
+.hp-commercial {
+    height: 295px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .hp-hover__border {
+        padding: 20px;
+    }
+    &:hover {
+        .hover-ef__bottom-text {
+            bottom: 40%;
+        }
+    }
+}
+.hp-infrastructure{
+    background-image: url('../img/home/hp_infrastructure_bg.jpg');
+}
+.hp-commercial {
+    background-image: url('../img/home/hp_commercial_bg.jpg');
+    .hover-ef__bottom-text {
+        max-width: 200px;
+    }
+    &:hover {
+        .hover-ef__bottom-text {
+            max-width: none;
+        }
+    }
+}
+
+// hp-3-items end
+// hp-2-items start
+.hp-2-items {
+    max-width: 1160px;
+    margin: 60px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.hp-construction,
+.hp-developer {
+    height: 550px;
+    width: 47%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hp-construction {
+    background-image: url('../img/home/hp_construction_bg.jpg');
+}
+.hp-developer {
+    background-image: url('../img/home/hp_developer_bg.jpg');
+}
+.hp-developer__saga-logo {
+    width: 217px;
+    height: 217px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+// hp-2items end
+// hp other projects start
+
+.hp-other-projects {
+    max-width: 1160px;
+    margin: 60px auto 0;
+}
+.hp-other-projects__heading {
+    font-size: 2.375rem;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+    &::after {
+        content: '';
+        display: block;
+        width: 52px;
+        height: 1px;
+        background-color: #000;
+        margin: 20px auto 0;
+    }
+}
+.hp-other-projects-container {
+    max-width: 910px;
+    margin: 0 auto;
+}
+.hp-other-projects-gallery {
+    .slick-track {
+        display: flex;
+        align-items: center
+    }
+    img {
+        width: 80%;
+        margin: 0 auto
+    }
+}
+// hp other projects end
+
+// day in washington start
+.hp-washington-sfera {
+    max-width: 1160px;
+    margin: 60px auto 0;
+    position: relative;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &:hover {
+        .hover-ef__black-box {
+            animation-name: animateBlackBoxFullWidth;
+        }
+        .hover-ef__bottom-text {
+            bottom: 56%;
+        }
+        .hp-washington-sfera__bottom-line {
+            opacity: 0;
+        }
+    }
+}
+.hp-washington-sfera__bottom-line {
+    background-color: rgba($green1, 0.8);
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: opacity 0.5s;
+}
+.hp-day-in-washington {
+    background-image: url('../img/home/hp_day_in_washingto_bg.jpg');
+}
+.hp-day-in-washington__conent {
+    height: 100%;;
+}
+.hp-washington-sfera__text {
+    font-size: 2.375rem;
+    color: #fff;
+    line-height: 100px;
+    margin-left: 40px;
+}
+.hp-washington-sfera__svg {
+    stroke: #fff;
+}
+.hp-sfera {
+    background-image: url('../img/home/hp_sfera_bg.jpg');
+}
+// day in washington end

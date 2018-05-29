@@ -1,0 +1,95 @@
+.architecture {
+    position: relative;
+    height: 100vh;
+    min-height: 900px;
+}
+
+.page-top_architecture {
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0.65+53,0.25+88,0+100 */
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.65) 53%, rgba(0,0,0,0.25) 88%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.65) 53%,rgba(0,0,0,0.25) 88%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.65) 53%,rgba(0,0,0,0.25) 88%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    
+    position: relative;
+    z-index: 1;
+    height: 200px;
+}
+.architecture__gallery {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.architecture__main-content {
+    max-width: 1160px;
+    margin: 0 auto;
+    height: calc(100vh - 200px);
+    min-height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.architecture__gallery-item {
+    width: 100%;
+    height: 100vh;
+    min-height: 910px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gallery-arrow_architecture {
+    top: 40%;
+}
+
+.gallery-arrow_architecture-prev {
+    left: 1%;
+}
+.gallery-arrow_architecture-next {
+    right: 1%;
+}
+
+.architecture__nav-gallery {
+    max-width: 1024px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.gallery-arrow_architecture-nav {
+    top: auto;
+    bottom: 19px;
+}
+.gallery-arrow_architecture-nav-next {
+    right: 1%;
+}
+.gallery-arrow_architecture-nav-prev {
+    left: 1%;
+}
+
+.architecture__gallery-nav-item {
+    width: 130px !important;
+    height: 80px;
+    margin: 0 10px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.architecture__gallery-item_0, .architecture__gallery-nav-item_0 {background-image: url('../img/architecture/gallery/1.jpg');}
+.architecture__gallery-item_1, .architecture__gallery-nav-item_1 {background-image: url('../img/architecture/gallery/1.jpg');}
+.architecture__gallery-item_2, .architecture__gallery-nav-item_2 {background-image: url('../img/architecture/gallery/1.jpg');}
+.architecture__gallery-item_3, .architecture__gallery-nav-item_3 {background-image: url('../img/architecture/gallery/1.jpg');}
+.architecture__gallery-item_4, .architecture__gallery-nav-item_4 {background-image: url('../img/architecture/gallery/1.jpg');}
+.architecture__gallery-item_5, .architecture__gallery-nav-item_5 {background-image: url('../img/architecture/gallery/1.jpg');}
+.architecture__gallery-item_6, .architecture__gallery-nav-item_6 {background-image: url('../img/architecture/gallery/1.jpg');}
+.architecture__gallery-item_7, .architecture__gallery-nav-item_7 {background-image: url('../img/architecture/gallery/1.jpg');}
+.architecture__gallery-item_8, .architecture__gallery-nav-item_8 {background-image: url('../img/architecture/gallery/1.jpg');}
+
+.info-block__architeture {
+   top: 0px;
+   left: 80px;
+}

@@ -1,0 +1,131 @@
+.header {
+    background-color: rgba($green1, 0.8);
+    height: 75px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    &.header__fixed {
+        // position: fixed;
+        // animation: headerSlideAimation 0.5s;
+    }
+}
+@keyframes headerSlideAimation {
+    from {transform: translateY(-100%)}
+    to {transform: translateY(0%)}
+}
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.header__nav-container {
+    width: 65%;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav-item {
+    color: #fff
+}
+.header-icon {
+    display: inline-block;
+    fill: $beige1;
+    vertical-align: middle;
+}
+.header-icon_webcam {
+    width: 16px;
+    height: 19px;
+    margin-left: 20px;
+}
+.header-icon_phone {
+    width: 7px;
+    height: 20px;
+    margin-right: 20px;
+}
+// langugae dropdown
+.header__language {
+}
+
+// Callback button
+.callback-btn {
+    width: 200px;
+    line-height: 48px;
+    background-color: $beige1;
+    color: $green1;
+}
+// Menu button
+.menu {
+    width: 74px;
+    height: 48px;
+    background-color: #d2c5c5;
+    text-align: center;
+    overflow: hidden;
+    &:hover {
+        cursor: pointer;
+        .menu__text_black {
+            transform: translateY(10px);
+            opacity: 0;
+            transition: all .5s ease-out;
+        }
+        .menu__text_white {
+            transform: translateY(0px);
+            opacity: 1;
+            transition: all .5s ease-out;
+        }
+        .menu__line {
+            &::before {
+                transform: translateX(0%);
+            }
+        }
+    }
+}
+.menu-container{
+    width: 42px;
+    margin: 5px auto 0;
+    overflow: hidden;
+    position: relative;
+}
+.menu__text_black {
+    transition: all .5s ease-out;
+}
+.menu__text_white {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    transform: translateY(-10px);
+    opacity: 0;
+    transition: all .5s ease-out;
+}
+.menu__line {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    position: relative;
+    margin-top: 5px;
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #fff;
+        transform: translateX(-100%);
+    }
+}
+.menu__line_1 {
+    &::before {transition: transform .5s;}
+}
+.menu__line_2 {
+    &::before {transition: transform .5s .2s;}
+}
+.menu__line_3 {
+    &::before {transition: transform .5s .4s;}
+}
+// Menu button end

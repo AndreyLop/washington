@@ -1,0 +1,193 @@
+// OpenSans Fotn
+@include font-face("OpenSans", "../fonts/OpenSans/OpenSans-Regular");
+@include font-face("OpenSans", "../fonts/OpenSans/OpenSans-Light", 300);
+@include font-face("OpenSans", "../fonts/OpenSans/OpenSans-SemiBold", 600);
+
+// TTNorms font
+@include font-face("TTNorms", "../fonts/TTNorms/TTNorms-Regular");
+@include font-face("TTNorms", "../fonts/TTNorms/TTNorms-Light", 300);
+@include font-face("TTNorms", "../fonts/TTNorms/TTNorms-Medium", 500);
+
+html {
+    font-family: "TTNorms", sans-serif;
+    font-size: 0.875rem;
+    letter-spacing: 0.7px;
+}
+* {
+    box-sizing: border-box;
+}
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $green1;
+}
+body {
+    background-color: #f8f5f4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+}
+
+
+// International inputs
+.iti-flag {
+    background-image: url("../img/common/flags.png");
+}
+.intl-tel-input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .iti-flag {
+        background-image: url("../img/common//flags@2x.png");
+    }
+}
+
+.page-top {
+
+}
+
+.page-top__wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+    height: 150px;
+    position: relative;
+    &::before,
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 35%;
+        height:  1px;
+        background-color: rgba($green2, 0.7);
+    }
+    &::before {
+        left: 0;
+    }
+    &::after {
+        right: 0;
+    }
+}
+
+.page-top_heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h1 {
+        font-size: 2.25rem;
+        font-weight: 300;
+        color: $beige1;
+        letter-spacing: 1.8px;
+    }
+}
+
+.page-top__letter-w {
+    fill: rgba($green2, 0.35);
+    width: 102px;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page-top__links {
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+    ul {
+        display: flex;
+
+    }
+    li {
+        margin-right: 20px;
+    }
+    a {
+        color: #9f9f9f;
+    }
+}
+
+
+.info-block {
+    width: 390px;
+    position: absolute;
+}
+.info-block__heading {
+    line-height: 80px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #000;
+    background-color: rgba($beige1, 0.9);
+    padding: 0 30px;
+    position: relative;
+    z-index: 2;
+}
+.info-block__close {
+    position: absolute;
+    top: 0;
+    right: -40px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba($green1, 0.9);
+    &:hover {
+        cursor: pointer;
+    }
+}
+.info-block__arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(135deg);
+    border: solid $beige1;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transition: all 0.5s ease-out
+}
+.info-block__text {
+    padding: 40px 40px 10px 30px;
+    background-color: rgba($green1, 0.9);
+
+    position: absolute;
+    top: 80px;
+    left: 0;
+    max-width: 390px;;
+
+    height: auto;
+    overflow: hidden;
+    max-height: 600px;
+    transition: all 0.5s ease-out
+}
+.info-block__paragraph {
+    line-height: 26px;
+    color: #fff;
+    letter-spacing: 0.7px;
+    margin-bottom: 30px;
+}
+
+.info-block__closed {
+    .info-block__text {
+        max-height: 0px;
+        padding: 0;
+    }
+    .info-block__arrow {
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+}

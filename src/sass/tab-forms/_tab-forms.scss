@@ -1,0 +1,113 @@
+
+.contacts {
+    max-width: 1160px;
+    margin: 40px auto;
+    background-image: url('../img/tab-forms/contacts_tab_form_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.contacts__tabs {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.contacts__tab {
+    height: 100%;
+    line-height: 50px;
+    flex:1;
+    text-align: center;
+    background-color: rgba($green1, 0.8);
+    color: $beige1;
+    &.contacts__tab_active {
+        background-color: $beige1;
+        color: $green1;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+.contacts__heading {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2.375rem;
+    &::after {
+        content: '';
+        display: block;
+        width: 52px;
+        height: 1px;
+        background-color: #fff;
+        margin: 15px auto 0px;
+
+    }
+}
+.contacts__tab-content {
+    padding: 0px 5px;
+}
+.contacts__tab-content__hidden {
+    display: none;
+}
+.contacts__tab-content-form {
+    form {
+        max-width: 1020px;
+        margin: 24px auto 0px;
+    }
+    input, textarea {
+        display: block;
+        width: 100%;
+        height: 50px;
+        margin-bottom: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        outline: none;
+        color: $green1;
+        letter-spacing: 0.45px;
+        font-size: 1.125rem;
+        padding-left: 31px;
+        font-family: "TTNorms", sans-serif;
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            font-family: "TTNorms", sans-serif;
+            color: $green1;
+            letter-spacing: 0.45px;
+            font-size: 1.125rem;
+        }
+        &::-moz-placeholder { /* Firefox 19+ */
+            font-family: "TTNorms", sans-serif;
+            color: $green1;
+            letter-spacing: 0.45px;
+            font-size: 1.125rem;
+        }
+        &:-ms-input-placeholder { /* IE 10+ */
+            font-family: "TTNorms", sans-serif;
+            color: $green1;
+            letter-spacing: 0.45px;
+            font-size: 1.125rem;
+        }
+        &:-moz-placeholder { /* Firefox 18- */
+            font-family: "TTNorms", sans-serif;
+            color: $green1;
+            letter-spacing: 0.45px;
+            font-size: 1.125rem
+        }
+    }
+    textarea {
+        padding-top: 12px;
+        font-size: 1.125rem;
+        font-family: "TTNorms", sans-serif;
+    }
+    .contacts__tab-submit-btn {
+        font-size: 0.875rem;
+        letter-spacing: 0,35px;
+        padding: 0px;
+        border: none;
+        background-color: $green1;
+        color: #fefefe;
+        transition: all 0.5s;
+        margin-bottom: 20px;
+        &:hover {
+            background-color: $beige1;
+            cursor: pointer;
+        }
+    }
+}
