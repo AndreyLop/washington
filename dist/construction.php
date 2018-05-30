@@ -25,6 +25,9 @@
                             <a href="/">Головна</a>
                         </li>
                         <li>
+                            <span class="page-top__line"></span>
+                        </li>
+                        <li>
                             <a href="#">Архітектура</a>
                         </li>
                     </ul>

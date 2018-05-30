@@ -51,6 +51,7 @@ gulp.task('home-js', function() {
 	.pipe(gulp.dest('dist/js'));
 });
 // Home end
+
 // architecture start
 gulp.task('architecture-js', function() {
 	return gulp.src([
@@ -87,12 +88,25 @@ gulp.task('day-in-washington-js', function() {
 });
 // day in washington end
 
+// architecture start
+gulp.task('developer-js', function() {
+	return gulp.src([
+		'src/js/libs/slick.min.js',
+		'src/js/developer.js',
+		])
+	.pipe(concat('developer.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// architecture end
+
 gulp.task('js', [
 	'common-js',
 	'home-js',
 	'architecture-js',
 	'construction-js',
-	'day-in-washington-js'], function() {
+	'day-in-washington-js',
+	'developer-js'], function() {
 	return gulp.src([
 		'src/js/common.js',
 		])

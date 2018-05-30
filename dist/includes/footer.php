@@ -16,7 +16,7 @@
                     <a href="#">Цінності</a>
                 </li>
                 <li>
-                    <a href="#">Інфраструктура</a>
+                    <a href="infrastructure.php">Інфраструктура</a>
                 </li>
                 <li>
                     <a href="#">Контакти</a>
@@ -56,10 +56,13 @@
             <div class="b-nav__heading">Хід проекту:</div>
             <ul>
                 <li>
-                    <a href="#">Забудовник</a>
+                    <a href="developer.php">Забудовник</a>
                 </li>
                 <li>
                     <a href="construction.php">Хід будвництва</a>
+                </li>
+                <li>
+                    <a href="news.php">Новини</a>
                 </li>
                 <li>
                     <a href="#">Веб-камера</a>

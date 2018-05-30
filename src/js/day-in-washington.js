@@ -4,7 +4,7 @@ var diw = (function() {
 
     var sliderSelector = '.js-diw__slider';
     var slideBars = $('.slide-bar');
-    var slideCircle = $('.slide-circle');
+    var slideSquare = $('.slide-square');
 
     $(sliderSelector).slick({
         arrows: false,
@@ -29,22 +29,18 @@ var diw = (function() {
     }
 
     $(sliderSelector).on('beforeChange', function(event, slick, currentSlide, nextSlide){
+
         fillActiveSlideBars(nextSlide);
-        // video        
-        // videos[currentSlide].pause();
-        // videos[nextSlide].play();
-        // video
-        
-        if(nextSlide+1 === slick.slideCount) {
-            showScrollBar();
-        } else {
-            $(document).scrollTop(0, 0)
-            hideScrollBar();
-        }
+
+        // if(nextSlide+1 === slick.slideCount) {
+        //     showScrollBar();
+        // } else {
+        //     hideScrollBar();
+        // }
       });
 
       
-      $(slideCircle).on('click', function() {
+      $(slideSquare).on('click', function() {
         $(sliderSelector).slick('slickGoTo', $(this).parent().data('slide'));
       });
 

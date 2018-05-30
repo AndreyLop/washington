@@ -26,6 +26,9 @@
                                 <a href="/">Головна</a>
                             </li>
                             <li>
+                                <span class="page-top__line"></span>
+                            </li>
+                            <li>
                                 <a href="#">День у Washington</a>
                             </li>
                         </ul>
@@ -37,57 +40,47 @@
             <div class="progress-bar__wrapper">
                 <div class="progress-bar">
                     <div class="slide-bar" data-slide="0">
-                        <div class="slide-circle"></div>
+                        <div class="slide-square"></div>
                         <div class="slide-time slide-time-first">09:00</div>
                     </div>
                     <div class="slide-bar" data-slide="1">
-                        <div class="slide-line"></div>
-                        <div class="slide-circle"></div>
+                        <div class="slide-square"></div>
                         <div class="slide-time">10:00</div>
                     </div>
                     <div class="slide-bar" data-slide="2">
-                        <div class="slide-line"></div>
-                        <div class="slide-circle"></div>
+                        <div class="slide-square"></div>
                         <div class="slide-time">11:00</div>
                     </div>
                     <div class="slide-bar" data-slide="3">
-                        <div class="slide-line"></div>
-                        <div class="slide-circle"></div>
+                        <div class="slide-square"></div>
                         <div class="slide-time">13:00</div>
                     </div>
                     <div class="slide-bar" data-slide="4">
-                        <div class="slide-line"></div>
-                        <div class="slide-circle"></div>
+                        <div class="slide-square"></div>
                         <div class="slide-time">14:00</div>
                     </div>
                     <div class="slide-bar" data-slide="5">
-                        <div class="slide-line"></div>
-                        <div class="slide-circle"></div>
+                        <div class="slide-square"></div>
                         <div class="slide-time">16:00</div>
                     </div>
                     <div class="slide-bar" data-slide="6">
-                        <div class="slide-line"></div>
-                        <div class="slide-circle"></div>
+                        <div class="slide-square"></div>
                         <div class="slide-time">18:00</div>
                     </div>
                     <div class="slide-bar" data-slide="7">
-                        <div class="slide-line"></div>
-                        <div class="slide-circle"></div>
+                        <div class="slide-square"></div>
                         <div class="slide-time">18:30</div>
                     </div>
                     <div class="slide-bar" data-slide="8">
-                        <div class="slide-line"></div>
-                        <div class="slide-circle"></div>
+                        <div class="slide-square"></div>
                         <div class="slide-time">19:00</div>
                     </div>
                     <div class="slide-bar" data-slide="9">
-                        <div class="slide-line"></div>
-                        <div class="slide-circle"></div>
+                        <div class="slide-square"></div>
                         <div class="slide-time">21:00</div>
                     </div>
                     <div class="slide-bar" data-slide="10">
-                        <div class="slide-line"></div>
-                        <div class="slide-circle"></div>
+                        <div class="slide-square"></div>
                         <div class="slide-time">22:00</div>
                     </div>
                 </div>

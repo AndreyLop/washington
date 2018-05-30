@@ -1,0 +1,141 @@
+.page-top_developer {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/developer/developer_bg.jpg');
+    .page-top_heading {
+        h1 {
+            color: #000;
+        }
+    }
+}
+.developer__msg {
+    max-width: 845px;
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.developer__slider-container {
+    max-width: 1160px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.developer__slider {
+    max-width: 830px;
+    margin: 0 auto;
+    .slick-track {
+        display: flex;
+        align-items: center;
+    }
+    img {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+.gallery-arrow_developer-prev {
+    left: 5px;
+}
+.gallery-arrow_developer-next {
+    right: 5px;
+}
+.developer__main-content {
+    max-width: 1160px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.developer__location {
+    width: 60%;
+    border: 1px solid #cdcdcd;
+    padding: 50px 45px 25px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.developer__saga-logo {
+    width: 183px;
+}
+.developer__location-text {
+    flex: 1;
+    max-width: 410px;
+    color: #000;
+    p {
+        line-height: 26px;
+        letter-spacing: 0.35px;
+    }
+}
+.developer__location-list {
+    margin-top: 30px;
+}
+.developer__location-list-item {
+    color: #000;
+    margin-bottom: 15px;
+    &::before {
+        content: '';
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-image: url('../img/developer/developer_spritesheet.png');
+    }
+}
+.developer__location-list-item_addr {
+    &::before {
+        background-position: -2px -2px;
+    }
+}
+.developer__location-list-item_tel {
+    &::before {
+        background-position: -230px -2px;
+    }
+}
+.developer__location-list-item_email {
+    &::before {
+        background-position: -36px -2px;
+    }
+}
+
+.developer__about {
+    width: 37%;
+    border: 1px solid #cdcdcd;
+    padding: 50px 38px 25px 25px;
+
+    line-height: 26px;
+    color: #000;
+}
+.developer__about-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.developer__about-item-icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url('../img/developer/developer_spritesheet.png');
+}
+.developer__about-item-text {
+    flex: 1;
+}
+.developer__about-item-icon_1 {
+    width: 44px;
+    height: 36px;
+    background-position: -70px -2px;
+    margin-right: 37px;
+}
+.developer__about-item-icon_2 {
+    width: 63px;
+    height: 35px;
+    background-position: -118px -2px;
+    margin-right: 18px;
+}
+.developer__about-item-icon_3 {
+    width: 44px;
+    height: 52px;
+    background-position: -184px -2px;
+    margin-right: 36px;
+}

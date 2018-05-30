@@ -121,7 +121,14 @@ a {
     }
     a {
         color: #9f9f9f;
+        text-decoration: underline;
     }
+}
+.page-top__line {
+    display: inline-block;
+    width: 1px;
+    height: 14px;
+    background-color: #9f9f9f;
 }
 
 
