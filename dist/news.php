@@ -330,7 +330,9 @@
         </div><!--news__list end-->
         <div class="news__pagination">
             <div class="news__pagination-arrow news__pagination-arrow_prev">
-                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 220.682 220.682"><path class="arrow-part-1" d="M99.702 210.043l28.284-28.285-71.417-71.417 71.417-71.417-28.284-28.285L0 110.341z"/><path  class="arrow-part-1" d="M192.398 10.639l-99.703 99.702 99.703 99.702 28.284-28.285-71.418-71.417 71.418-71.417z"/></svg>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 220.682 220.682"><path class="arrow-part-1" d="M99.702 210.043l28.284-28.285-71.417-71.417 71.417-71.417-28.284-28.285L0 110.341z"/><path  class="arrow-part-1" d="M192.398 10.639l-99.703 99.702 99.703 99.702 28.284-28.285-71.418-71.417 71.418-71.417z"/></svg>
+                </a>
             </div>
             <div class="news__pagination-numbers">
                 <ul>
@@ -343,7 +345,9 @@
                 </ul>
             </div>
             <div class="news__pagination-arrow news__pagination-arrow_next">
-                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 220.682 220.682"><path class="arrow-part-1" d="M92.695 38.924l71.418 71.417-71.418 71.417 28.284 28.285 99.703-99.702-99.703-99.702z"/><path class="arrow-part-2" d="M28.284 210.043l99.702-99.702-99.702-99.702L0 38.924l71.417 71.417L0 181.758z"/></svg>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 220.682 220.682"><path class="arrow-part-1" d="M92.695 38.924l71.418 71.417-71.418 71.417 28.284 28.285 99.703-99.702-99.703-99.702z"/><path class="arrow-part-2" d="M28.284 210.043l99.702-99.702-99.702-99.702L0 38.924l71.417 71.417L0 181.758z"/></svg>
+                </a>
             </div>
         </div>
 

@@ -100,13 +100,38 @@ gulp.task('developer-js', function() {
 });
 // architecture end
 
+// news open start
+gulp.task('news-open-js', function() {
+	return gulp.src([
+		'src/js/libs/slick.min.js',
+		'src/js/news-open.js',
+		])
+	.pipe(concat('news-open.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// news open end
+
+// location start
+gulp.task('location-js', function() {
+	return gulp.src([
+		'src/js/location.js',
+		])
+	.pipe(concat('location.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// location end
+
 gulp.task('js', [
 	'common-js',
 	'home-js',
 	'architecture-js',
 	'construction-js',
 	'day-in-washington-js',
-	'developer-js'], function() {
+	'developer-js',
+	'news-open-js',
+	'location-js'], function() {
 	return gulp.src([
 		'src/js/common.js',
 		])

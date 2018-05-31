@@ -37,7 +37,7 @@
         </div>
         <!-- page-top -->
 
-        <div class="infrastructure__items">
+        <div class="infrastructure__items wrapper">
 
             <div class="infrastructure__item infrastructure__item_1 animate">
                 <div class="infrastructure__item-inner-border"></div>

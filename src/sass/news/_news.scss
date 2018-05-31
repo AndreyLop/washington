@@ -120,7 +120,7 @@
 
 .news__pagination {
     width: 310px;
-    margin: 0 auto;
+    margin: 0 auto 40px;
 
     display: flex;
     justify-content: space-between;
@@ -132,6 +132,7 @@
 
 .news__pagination-numbers {
     flex: 1;
+    max-width: 240px;
     ul {
         display: flex;
         justify-content: space-between;
@@ -143,10 +144,22 @@
         line-height: 40px;
         text-align: center;
         border-radius: 50%;
+        transition: all 0.4s;
+        &:hover {
+            background-color: $green1;
+            color: #fff;
+        }
     }
 }
 .news__pagination-link_active {
     a {
         background-color: $beige1;
+    }
+}
+
+.news__pagination-arrow {
+    transition: fill 0.4s;
+    &:hover {
+        fill: $green1;
     }
 }

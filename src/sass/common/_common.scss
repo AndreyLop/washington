@@ -10,8 +10,9 @@
 
 html {
     font-family: "TTNorms", sans-serif;
-    font-size: 0.875rem;
     letter-spacing: 0.7px;
+    font-size: 16px;
+    background-color: #f8f5f4;
 }
 * {
     box-sizing: border-box;
@@ -23,9 +24,6 @@ html {
     box-sizing: border-box;
     color: $green1;
 }
-body {
-    background-color: #f8f5f4;
-}
 
 a {
     text-decoration: none;
@@ -33,7 +31,7 @@ a {
 }
 
 .wrapper {
-    max-width: 1200px;
+    max-width: 1170px;
     margin: 0 auto;
     padding: 0 5px;
 }
@@ -133,11 +131,11 @@ a {
 
 
 .info-block {
-    width: 390px;
     position: absolute;
 }
 .info-block__heading {
     line-height: 80px;
+    max-height: 80px;
     font-size: 1.5rem;
     font-weight: 300;
     color: #000;
@@ -166,7 +164,7 @@ a {
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
-    transition: all 0.5s ease-out
+    transition: all 0.5s 1s ease-out
 }
 .info-block__text {
     padding: 40px 40px 10px 30px;
@@ -175,24 +173,36 @@ a {
     position: absolute;
     top: 80px;
     left: 0;
-    max-width: 390px;;
 
     height: auto;
     overflow: hidden;
     max-height: 600px;
-    transition: all 0.5s ease-out
+    transition: all 0.5s 0.7s ease-out;
+
+    z-index: 1
+}
+.info-block__main-content {
+    width: 390px;
+    overflow: hidden;
+    transition: width 0.7s ease-out;
 }
 .info-block__paragraph {
     line-height: 26px;
     color: #fff;
+    font-size: 0.875rem;
     letter-spacing: 0.7px;
     margin-bottom: 30px;
 }
 
 .info-block__closed {
+    .info-block__main-content {
+        width: 0px;
+        transition: width 0.7s 0.7s ease-out;
+    }
     .info-block__text {
         max-height: 0px;
         padding: 0;
+        transition: all 0.5s ease-out;
     }
     .info-block__arrow {
         transform: translate(-50%, -50%) rotate(-45deg);

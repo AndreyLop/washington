@@ -33,7 +33,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="construction-percents">
+            <div class="construction-percents wrapper">
                 <div class="construction-percent__item">
                     <div class="construction-percents__text">
                         Загальнобудівельні роботи:
@@ -77,7 +77,7 @@
         </div>
         <!-- page-top -->
 
-        <div class="construction__photos-container">
+        <div class="construction__photos-container wrapper">
             <div class="construction__photos">
 
                 <div class="construction__photo">

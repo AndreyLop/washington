@@ -51,7 +51,8 @@
             </div>
         </div>
     </section>
-    <section class="hp-about animate">
+
+    <section class="hp-about wrapper animate">
         <div class="hp-about__border">
             <div class="hp-about__info-lists">
                 <div class="hp-about__info-list hp-about__info-list_left">
@@ -95,7 +96,7 @@
         </div>
     </section>
 
-    <section class="hp-location animate">
+    <section class="hp-location wrapper animate">
 
         <div class="hp-location__map hover-ef hover-ef_1">
             <a href="#">
@@ -173,7 +174,7 @@
 
     </section>
 
-    <section class="hp-advantages">
+    <section class="hp-advantages wrapper">
         <div class="hp-advantages__gallery js-hp-gallery_advantages">
             <img src="img/home/advantage_gallery/1.jpg" alt="Advantage Image 1">
             <img src="img/home/advantage_gallery/1.jpg" alt="Advantage Image 2">
@@ -208,7 +209,7 @@
         </div>
     </section>
 
-    <section class="hp-values">
+    <section class="hp-values wrapper">
         <div class="hp-values__gallery js-hp-gallery_values">
             <img src="img/home/values_gallery/1.jpg" alt="Value Image 1">
             <img src="img/home/values_gallery/1.jpg" alt="Value Image 2">
@@ -241,7 +242,7 @@
         </div>
     </section>
 
-    <section class="hp-3-items">
+    <section class="hp-3-items wrapper">
         <div class="hp-3-items__left">
             <div class="hp-apartments hover-ef hover-ef_2">
                 <a href="#">
@@ -351,7 +352,7 @@
         </div>
     </section>
 
-    <section class="hp-2-items">
+    <section class="hp-2-items wrapper">
 
         <div class="hp-construction hover-ef hover-ef_1">
             <a href="#">
@@ -423,7 +424,7 @@
         </div>
     </section>
 
-    <section class="hp-other-projects">
+    <section class="hp-other-projects wrapper">
         <h3 class="hp-other-projects__heading">Інші проекти забудовника</h3>
         <div class="hp-other-projects-container">
             <ul class="hp-other-projects-gallery">
@@ -466,80 +467,81 @@
         </div>
     </section>
 
-    <section class="hp-day-in-washington hp-washington-sfera">
-
-        <div class="hp-day-in-washington__conent hp-washington-sfera__content hover-ef hover-ef_1">
-            <a href="day-in-washington.php">
-                <div class="hover-ef__overlay">
-                    <div class="hover-ef__border">
-                        <div class="W-logo W-logo_white W-logo_hover">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 171.332 134.318"><path class="letter_W_left" d="M.76.677l57.1 132.39L116.065.668l-4.903.004-52.49 119.207L7.155.673z"/><path class="letter_W_right" d="M55.26.508l57.1 132.39L170.565.5l-4.902.004-52.49 119.206L61.655.505z"/></svg>
+    <section class="wrapper">
+        <div class="hp-day-in-washington hp-washington-sfera">
+            <div class="hp-day-in-washington__conent hp-washington-sfera__content hover-ef hover-ef_1">
+                <a href="day-in-washington.php">
+                    <div class="hover-ef__overlay">
+                        <div class="hover-ef__border">
+                            <div class="W-logo W-logo_white W-logo_hover">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 171.332 134.318"><path class="letter_W_left" d="M.76.677l57.1 132.39L116.065.668l-4.903.004-52.49 119.207L7.155.673z"/><path class="letter_W_right" d="M55.26.508l57.1 132.39L170.565.5l-4.902.004-52.49 119.206L61.655.505z"/></svg>
+                            </div>
+                            <p class="hover-ef__paragraph">
+                            Девелопер WASHINGTON Concept House – компанія SAGA Development, відома такими знаковими для Києва проектами:
+                            </p>
                         </div>
-                        <p class="hover-ef__paragraph">
-                        Девелопер WASHINGTON Concept House – компанія SAGA Development, відома такими знаковими для Києва проектами:
-                        </p>
                     </div>
-                </div>
-                <div class="hover-ef__black-box">
-                    <div class="hover-ef__black-box-content">
-                        <div class="hover-ef__arrow_1">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 477.175 477.175" xml:space="preserve"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5 c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"/></svg>
+                    <div class="hover-ef__black-box">
+                        <div class="hover-ef__black-box-content">
+                            <div class="hover-ef__arrow_1">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 477.175 477.175" xml:space="preserve"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5 c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"/></svg>
+                            </div>
+                            <span>Дивитися</span>
                         </div>
-                        <span>Дивитися</span>
                     </div>
-                </div>
-                <div class="hp-washington-sfera__bottom-line"></div>
-                <div class="hover-ef__bottom-text">
-                    <h3 class="hover-ef__heading">
-                    День у Washington
-                        <span class="hover-ef__arrow_2">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="5.6456027mm" width="16.378967mm">
-                                <g transform="translate(-118.21429,-145.23871)"><path class="hp-arrow_main-line" d="m 118.21429,155.04077 58.03571,0" /><path class="hp-arrow__line" d="m 175.89286,154.97381 -6.80865,-6.55879" /><path class="hp-arrow__line" d="m 169.33222,161.88374 6.55879,-6.80865" /></g>
-                            </svg>
-                        </span>
-                    </h3>
-                </div>
-            </a>
+                    <div class="hp-washington-sfera__bottom-line"></div>
+                    <div class="hover-ef__bottom-text">
+                        <h3 class="hover-ef__heading">
+                        День у Washington
+                            <span class="hover-ef__arrow_2">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="5.6456027mm" width="16.378967mm">
+                                    <g transform="translate(-118.21429,-145.23871)"><path class="hp-arrow_main-line" d="m 118.21429,155.04077 58.03571,0" /><path class="hp-arrow__line" d="m 175.89286,154.97381 -6.80865,-6.55879" /><path class="hp-arrow__line" d="m 169.33222,161.88374 6.55879,-6.80865" /></g>
+                                </svg>
+                            </span>
+                        </h3>
+                    </div>
+                </a>
+            </div>
         </div>
 
     </section>
 
-    <section class="hp-sfera hp-washington-sfera">
-
-        <div class="hp-day-in-washington__conent hp-washington-sfera__content hover-ef hover-ef_2">
-            <a href="#">
-                <div class="hover-ef__overlay">
-                    <div class="hover-ef__border">
-                        <div class="W-logo W-logo_white W-logo_hover">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 171.332 134.318"><path class="letter_W_left" d="M.76.677l57.1 132.39L116.065.668l-4.903.004-52.49 119.207L7.155.673z"/><path class="letter_W_right" d="M55.26.508l57.1 132.39L170.565.5l-4.902.004-52.49 119.206L61.655.505z"/></svg>
+    <section class="wrapper">
+        <div class="hp-sfera hp-washington-sfera">
+            <div class="hp-day-in-washington__conent hp-washington-sfera__content hover-ef hover-ef_2">
+                <a href="#">
+                    <div class="hover-ef__overlay">
+                        <div class="hover-ef__border">
+                            <div class="W-logo W-logo_white W-logo_hover">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 171.332 134.318"><path class="letter_W_left" d="M.76.677l57.1 132.39L116.065.668l-4.903.004-52.49 119.207L7.155.673z"/><path class="letter_W_right" d="M55.26.508l57.1 132.39L170.565.5l-4.902.004-52.49 119.206L61.655.505z"/></svg>
+                            </div>
+                            <p class="hover-ef__paragraph">
+                            Девелопер WASHINGTON Concept House – компанія SAGA Development, відома такими знаковими для Києва проектами:
+                            </p>
                         </div>
-                        <p class="hover-ef__paragraph">
-                        Девелопер WASHINGTON Concept House – компанія SAGA Development, відома такими знаковими для Києва проектами:
-                        </p>
                     </div>
-                </div>
-                <div class="hover-ef__black-box">
-                    <div class="hover-ef__black-box-content">
-                        <div class="hover-ef__arrow_1">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 477.175 477.175" xml:space="preserve"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5 c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"/></svg>
+                    <div class="hover-ef__black-box">
+                        <div class="hover-ef__black-box-content">
+                            <div class="hover-ef__arrow_1">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 477.175 477.175" xml:space="preserve"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5 c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"/></svg>
+                            </div>
+                            <span>Дивитися</span>
                         </div>
-                        <span>Дивитися</span>
                     </div>
-                </div>
-                <div class="hp-washington-sfera__bottom-line"></div>
-                <div class="hover-ef__bottom-text">
-                    <h3 class="hover-ef__heading">
-                        Sfera Living System
-                        <span class="hover-ef__arrow_2">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="5.6456027mm" width="16.378967mm">
-                                <g transform="translate(-118.21429,-145.23871)"><path class="hp-arrow_main-line" d="m 118.21429,155.04077 58.03571,0" /><path class="hp-arrow__line" d="m 175.89286,154.97381 -6.80865,-6.55879" /><path class="hp-arrow__line" d="m 169.33222,161.88374 6.55879,-6.80865" /></g>
-                            </svg>
-                        </span>
-                    </h3>
-                </div>
-            </a>
+                    <div class="hp-washington-sfera__bottom-line"></div>
+                    <div class="hover-ef__bottom-text">
+                        <h3 class="hover-ef__heading">
+                            Sfera Living System
+                            <span class="hover-ef__arrow_2">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="5.6456027mm" width="16.378967mm">
+                                    <g transform="translate(-118.21429,-145.23871)"><path class="hp-arrow_main-line" d="m 118.21429,155.04077 58.03571,0" /><path class="hp-arrow__line" d="m 175.89286,154.97381 -6.80865,-6.55879" /><path class="hp-arrow__line" d="m 169.33222,161.88374 6.55879,-6.80865" /></g>
+                                </svg>
+                            </span>
+                        </h3>
+                    </div>
+                </a>
+            </div>
         </div>
-
     </section>
 
     <?php include_once('includes/tab_forms.php');?>

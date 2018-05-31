@@ -4,13 +4,13 @@
             <div class="b-nav__heading">Про проект:</div>
             <ul>
                 <li>
-                    <a href="#">Розташування</a>
+                    <a href="location.php">Розташування</a>
                 </li>
                 <li>
                     <a href="architecture.php">Архітектура</a>
                 </li>
                 <li>
-                    <a href="#">Переваги</a>
+                    <a href="advantages.php">Переваги</a>
                 </li>
                 <li>
                     <a href="#">Цінності</a>
