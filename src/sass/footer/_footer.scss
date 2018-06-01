@@ -6,9 +6,10 @@
 .footer__wrapper {
     max-width: 1160px;
     margin: 0 auto;
-    padding: 60px 5px;
+    padding: 60px 10px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     li {
         color: #fff;
         margin-bottom: 20px;
@@ -28,11 +29,20 @@
     color: #98988e;
     margin-bottom: 40px;
 }
-
+.b-nav__part_sales-dep {
+    .b-nav__heading {
+        margin-bottom: 32px;
+    }
+}
+.b-nav__address {
+    line-height: 36px;
+}
 
 .b-nav__telephone {
     position: relative;
     border: 1px solid #d2c5c5;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .b-nav__icon-container {
@@ -64,7 +74,7 @@
     margin: 12px 0;
 }
 .b-nav__callback-btn {
-    width: 80%;
+    width: 90%;
     line-height: 48px;
     background-color: $beige1;
 }

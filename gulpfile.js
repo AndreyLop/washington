@@ -123,6 +123,18 @@ gulp.task('location-js', function() {
 });
 // location end
 
+
+// values start
+gulp.task('values-js', function() {
+	return gulp.src([
+		'src/js/values.js',
+		])
+	.pipe(concat('values.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// values end
+
 gulp.task('js', [
 	'common-js',
 	'home-js',
@@ -131,7 +143,8 @@ gulp.task('js', [
 	'day-in-washington-js',
 	'developer-js',
 	'news-open-js',
-	'location-js'], function() {
+	'location-js',
+	'values-js'], function() {
 	return gulp.src([
 		'src/js/common.js',
 		])

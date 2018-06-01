@@ -50,13 +50,29 @@ var homePageSliders = (function() {
     var valuesSlider = new CustomSlider('.js-hp-gallery_values',{
         prevArrow: '<div class="gallery-arrow gallery-arrow_values gallery-arrow_prev"><i class="arrow arrow-prev"></i></div>',
         nextArrow: '<div class="gallery-arrow gallery-arrow_values gallery-arrow_next"><i class="arrow arrow-next"></i></div>',
+        autoplay: true
     });
 
+    // other projecs slider
     $('.hp-other-projects-gallery').slick({
         prevArrow: '<div class="gallery-arrow gallery-arrow_projects gallery-arrow_prev"><i class="arrow arrow-prev"></i></div>',
         nextArrow: '<div class="gallery-arrow gallery-arrow_projects gallery-arrow_next"><i class="arrow arrow-next"></i></div>',
         slidesToShow: 5,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                }
+            }
+          ]
     })
 
 })();

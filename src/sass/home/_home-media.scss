@@ -1,0 +1,158 @@
+@media only screen and (max-width: 1200px) {
+
+    // other projects
+    .hp-other-projects-container {
+        max-width: 800px;
+    }
+
+} // 1200 end
+
+@media only screen and (max-width: 1024px) {
+
+    // about
+    .hp-about {
+        margin-top: 30px;
+    }
+    .hp-about__info-lists {
+        padding: 50px 10px;
+    }
+    .hp-about__info-list-item  {
+        width: 160px;
+        line-height: 18px;
+    }
+    .hp-about__logo-text {
+        flex-direction: column;
+    }
+
+    // location
+    .hp-location {
+        margin-top: 30px;
+    }
+    .hp-location__architecture, 
+    .hp-location__map {
+        width: 100%;
+        max-width: 748px;
+        margin: 0 auto;
+    }
+    .hp-location__map {
+        margin-bottom: 30px;
+    }
+
+    // advantages
+    .hp-advantages {
+        margin-top: 30px;
+    }
+    .hp-advantages__gallery-text {
+        width: 300px;
+    }
+    .hp-advantages__gallery-text_bottom {
+        padding: 60px 26px 0px;
+    }
+    // values
+    .hp-values {
+        margin-top: 30px;
+    }
+    // ho 3 items
+    .hp-3-items {
+        margin-top: 30px;
+    }
+    .hp-3-items__left {
+        width: 100%;
+        max-width: 748px;
+        margin: 0 auto;
+    }
+    .hp-apartments {
+        margin-bottom: 30px;
+        &:hover {
+            &.hover-ef_2 {
+                .hover-ef__black-box {
+                    animation-name: animateBlackBoxScale9;
+                    animation-duration: 1s;
+                }
+            }
+            .hover-ef__bottom-text {
+                bottom: 69%;
+            }
+        }
+    }
+    .hp-3-items__right {
+        width: 100%;
+        max-width: 748px;
+        margin: 0 auto;
+    }
+    .hp-2-items {
+        margin-top: 0px;
+    }
+    .hp-infrastructure,
+    .hp-commercial {
+        margin-bottom: 30px;
+        &:hover {
+            .hover-ef__bottom-text {
+                bottom: 31%;
+            }
+            &.hover-ef_2 {
+                .hover-ef__black-box {
+                    animation-name: animateBlackBoxScale9;
+                    animation-duration: 1s;
+                }
+            }
+            
+        }
+    
+    }
+    .hp-construction,
+    .hp-developer {
+        width: 100%;
+        max-width: 748px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        &:hover {
+            .hover-ef__bottom-text {
+                bottom: 62%;
+            }
+            &.hover-ef_2 {
+                .hover-ef__black-box {
+                    animation-name: animateBlackBoxScale9;
+                    animation-duration: 1s;
+                }
+            }
+            
+        }
+    }
+
+    // day in washington and sfera
+    .hp-washington-sfera {
+        width: 100%;
+        max-width: 748px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        
+        &:hover {
+            .hover-ef__bottom-text {
+                bottom: 62%;
+            }
+            &.hover-ef_2 {
+                .hover-ef__black-box {
+                    animation-name: animateBlackBoxScale9;
+                    animation-duration: 1s;
+                }
+            }
+            
+        }
+    }
+    
+    // other projects
+    .hp-other-projects {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .hp-other-projects-container {
+        max-width: 635px;
+    }
+
+} // 1024 end
+
+@media only screen and (max-width: 768px) {
+
+
+} // 768 end

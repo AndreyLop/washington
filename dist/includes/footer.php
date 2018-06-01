@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="footer__wrapper b-nav">
-        <div class="b-nav__part">
+        <div class="b-nav__part b-nav__part_about">
             <div class="b-nav__heading">Про проект:</div>
             <ul>
                 <li>
@@ -13,7 +13,7 @@
                     <a href="advantages.php">Переваги</a>
                 </li>
                 <li>
-                    <a href="#">Цінності</a>
+                    <a href="values.php">Цінності</a>
                 </li>
                 <li>
                     <a href="infrastructure.php">Інфраструктура</a>
@@ -23,7 +23,7 @@
                 </li>
             </ul>
         </div>
-        <div class="b-nav__part">
+        <div class="b-nav__part b-nav__part_choose">
             <div class="b-nav__heading">Обрати квартиру:</div>
             <ul>
                 <li>
@@ -52,7 +52,7 @@
                 </li>
             </ul>
         </div>
-        <div class="b-nav__part">
+        <div class="b-nav__part b-nav__part_construction">
             <div class="b-nav__heading">Хід проекту:</div>
             <ul>
                 <li>
@@ -69,10 +69,10 @@
                 </li>
             </ul>
         </div>
-        <div class="b-nav__part">
+        <div class="b-nav__part b-nav__part_sales-dep">
             <div class="b-nav__heading">Відділ продажу:</div>
             <ul>
-                <li>
+                <li class="b-nav__address">
                     Київ, Бориспільська траса 252 А (метро&nbsp;Бориспільська)
                 </li>
                 <li>

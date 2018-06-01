@@ -1,0 +1,69 @@
+.advantages {
+    position: relative;
+}
+.page-top_values {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.values__block {
+    width: 100%;
+    height: calc(100vh - 75px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.values__block_pleasures {
+    background-image: url('../img/values/values_pleasures_bg.jpg')
+}
+.values__block_privacy {
+    background-image: url('../img/values/values_privacy_bg.jpg')
+}
+.values__block_personality {
+    background-image: url('../img/values/values_personality_bg.jpg')
+}
+.values__block-wrapper {
+    height: 100%;
+    position: relative;
+}
+.values__text-block {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    max-width: 390px;
+
+    font-size: 1.5rem;
+}
+.values__text-block-headig {
+    background-color: rgba($green1, 0.9);
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 21px 0 21px 36px;
+}
+.values__text-block-paragraph {
+    background-color: rgba($beige1, 0.9);
+    font-weight: 300;
+    padding: 36px 0px 36px 36px;
+    line-height: 36px;
+    letter-spacing: 1.2px;
+}
+
+.down-arrows_values {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    a {
+        fill: inherit;
+    }
+}
+
+.values__block_personality {
+    .values__text-block {
+        top: 70%;
+    }
+}

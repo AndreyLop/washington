@@ -16,6 +16,7 @@
             <div class="hero__gallery-item hero__gallery-item_3"></div>
             <div class="hero__gallery-item hero__gallery-item_4"></div>
         </div>
+
         <div class="wrapper hero__wrapper">
             <div class="hero__gourment">
                 <div class="hero__gourment_left">
@@ -42,64 +43,67 @@
                 <div class="gallery_total-slides js-gallery_total-slides">05</div>
             </div>
 
-            <div class="down-arrows">
+            <div class="down-arrows hp-down-arrows">
             <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 485.263 581.108">
                 <path class="down-arrow down-arrow_1" d="M252.144 406.93l225.1-225.1c5.3-5.3 5.3-13.8 0-19.1-5.3-5.3-13.8-5.3-19.1 0l-215.5 215.5-215.5-215.5c-5.3-5.3-13.8-5.3-19.1 0-2.6 2.6-4 6.1-4 9.5 0 3.4 1.3 6.9 4 9.5l225.1 225.1c5.2 5.3 13.8 5.3 19 .1z"/>
                 <path class="down-arrow down-arrow_2" d="M252.144 577.22l225.1-225.1c5.3-5.3 5.3-13.8 0-19.1-5.3-5.3-13.8-5.3-19.1 0l-215.5 215.5-215.5-215.5c-5.3-5.3-13.8-5.3-19.1 0-2.6 2.6-4 6.1-4 9.5 0 3.4 1.3 6.9 4 9.5l225.1 225.1c5.2 5.3 13.8 5.3 19 .1z" /> 
                 <path class="down-arrow down-arrow_3"d="M252.144 248.175l225.1-225.1c5.3-5.3 5.3-13.8 0-19.1-5.3-5.3-13.8-5.3-19.1 0l-215.5 215.5-215.5-215.5c-5.3-5.3-13.8-5.3-19.1 0-2.6 2.6-4 6.1-4 9.5 0 3.4 1.3 6.9 4 9.5l225.1 225.1c5.2 5.3 13.8 5.3 19 .1z"/>
                 </svg>
             </div>
-        </div>
+        </div> <!--end hero_wrapper-->
+
     </section>
 
-    <section class="hp-about wrapper animate">
-        <div class="hp-about__border">
-            <div class="hp-about__info-lists">
-                <div class="hp-about__info-list hp-about__info-list_left">
-                    <ul>
-                        <li class="hp-about__info-list-item hp-about__info-list-item_left"><i class="hp-arrow hp-arrow_right"></i>Концептуальний клубний будинок</li>
-                        <li class="hp-about__info-list-item hp-about__info-list-item_left"><i class="hp-arrow hp-arrow_right"></i>22 поверхи</li>
-                        <li class="hp-about__info-list-item_main">
-                            <div class="hp-about__logo-text">
-                                <div class="W-logo W-logo_green W-logo_hp-about">
-                                    <!-- SVG W Letter here -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 171.332 134.318">
-                                        <path class="letter_W_left" d="M.76.677l57.1 132.39L116.065.668l-4.903.004-52.49 119.207L7.155.673z"/>
-                                        <path class="letter_W_right" d="M55.26.508l57.1 132.39L170.565.5l-4.902.004-52.49 119.206L61.655.505z"/>
-                                    </svg>
+    <section class="wrapper animate">
+        <div class="hp-about">
+            <div class="hp-about__border">
+                <div class="hp-about__info-lists">
+                    <div class="hp-about__info-list hp-about__info-list_left">
+                        <ul>
+                            <li class="hp-about__info-list-item hp-about__info-list-item_left"><i class="hp-arrow hp-arrow_right"></i>Концептуальний клубний будинок</li>
+                            <li class="hp-about__info-list-item hp-about__info-list-item_left"><i class="hp-arrow hp-arrow_right"></i>22 поверхи</li>
+                            <li class="hp-about__info-list-item_main">
+                                <div class="hp-about__logo-text">
+                                    <div class="W-logo W-logo_green W-logo_hp-about">
+                                        <!-- SVG W Letter here -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 171.332 134.318">
+                                            <path class="letter_W_left" d="M.76.677l57.1 132.39L116.065.668l-4.903.004-52.49 119.207L7.155.673z"/>
+                                            <path class="letter_W_right" d="M55.26.508l57.1 132.39L170.565.5l-4.902.004-52.49 119.206L61.655.505z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="hp-about__heading">
+                                        <h2>Про проект</h2>
+                                    </div>
                                 </div>
-                                <div class="hp-about__heading">
-                                    <h2>Про проект</h2>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="hp-about__info-list-item hp-about__info-list-item_left"><i class="hp-arrow hp-arrow_right"></i>114 квартир</li>
-                        <li class="hp-about__info-list-item hp-about__info-list-item_left"><i class="hp-arrow hp-arrow_right"></i>1 під'їзд</li>
-                    </ul>
-                </div>
-                <div class="hp-about__info-list hp-about__info-list_right">
-                    <ul>
-                        <li class="hp-about__info-list-item hp-about__info-list-item_right"><i class="hp-arrow hp-arrow_left"></i>Супер-сучасна архітектура</li>
-                        <li class="hp-about__info-list-item hp-about__info-list-item_right"><i class="hp-arrow hp-arrow_left"></i>Динамічний фасад</li>
-                        <li class="hp-about__info-list-item hp-about__info-list-item_right"><i class="hp-arrow hp-arrow_left"></i>Wine cellar</li>
-                        <li class="hp-about__info-list-item hp-about__info-list-item_right"><i class="hp-arrow hp-arrow_left"></i>Cigar lounge</li>
-                        <li class="hp-about__info-list-item hp-about__info-list-item_right"><i class="hp-arrow hp-arrow_left"></i>Історичний центр Києва</li>
-                        <li class="hp-about__info-list-item hp-about__info-list-item_right"><i class="hp-arrow hp-arrow_left"></i>Підземний паркінг</li>
-                        <li class="hp-about__info-list-item hp-about__info-list-item_right"><i class="hp-arrow hp-arrow_left"></i>Власний кухар</li>
-                        <li class="hp-about__info-list-item hp-about__info-list-item_right"><i class="hp-arrow hp-arrow_left"></i>Home cinema</li>
-                    </ul>
+                            </li>
+                            <li class="hp-about__info-list-item hp-about__info-list-item_left"><i class="hp-arrow hp-arrow_right"></i>114 квартир</li>
+                            <li class="hp-about__info-list-item hp-about__info-list-item_left"><i class="hp-arrow hp-arrow_right"></i>1 під'їзд</li>
+                        </ul>
+                    </div>
+                    <div class="hp-about__info-list hp-about__info-list_right">
+                        <ul>
+                            <li class="hp-about__info-list-item hp-about__info-list-item_right"><i class="hp-arrow hp-arrow_left"></i>Супер-сучасна архітектура</li>
+                            <li class="hp-about__info-list-item hp-about__info-list-item_right"><i class="hp-arrow hp-arrow_left"></i>Динамічний фасад</li>
+                            <li class="hp-about__info-list-item hp-about__info-list-item_right"><i class="hp-arrow hp-arrow_left"></i>Wine cellar</li>
+                            <li class="hp-about__info-list-item hp-about__info-list-item_right"><i class="hp-arrow hp-arrow_left"></i>Cigar lounge</li>
+                            <li class="hp-about__info-list-item hp-about__info-list-item_right"><i class="hp-arrow hp-arrow_left"></i>Історичний центр Києва</li>
+                            <li class="hp-about__info-list-item hp-about__info-list-item_right"><i class="hp-arrow hp-arrow_left"></i>Підземний паркінг</li>
+                            <li class="hp-about__info-list-item hp-about__info-list-item_right"><i class="hp-arrow hp-arrow_left"></i>Власний кухар</li>
+                            <li class="hp-about__info-list-item hp-about__info-list-item_right"><i class="hp-arrow hp-arrow_left"></i>Home cinema</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="hp-about__construction-end">
-            Завершення будівництва: …
+            <div class="hp-about__construction-end">
+                Завершення будівництва: …
+            </div>
         </div>
     </section>
 
     <section class="hp-location wrapper animate">
 
         <div class="hp-location__map hover-ef hover-ef_1">
-            <a href="#">
+            <a href="location.php">
                 <div class="hover-ef__overlay">
                     <div class="hover-ef__border">
                         <div class="W-logo W-logo_white W-logo_hover">
@@ -136,7 +140,7 @@
         </div>
 
         <div class="hp-location__architecture hover-ef hover-ef_1">
-            <a href="#">
+            <a href="architecture.php">
                 <div class="hover-ef__overlay">
                     <div class="hover-ef__border">
                         <div class="W-logo W-logo_white W-logo_hover">
@@ -174,70 +178,86 @@
 
     </section>
 
-    <section class="hp-advantages wrapper">
-        <div class="hp-advantages__gallery js-hp-gallery_advantages">
-            <img src="img/home/advantage_gallery/1.jpg" alt="Advantage Image 1">
-            <img src="img/home/advantage_gallery/1.jpg" alt="Advantage Image 2">
-            <img src="img/home/advantage_gallery/1.jpg" alt="Advantage Image 3">
-            <img src="img/home/advantage_gallery/1.jpg" alt="Advantage Image 4">
-            <img src="img/home/advantage_gallery/1.jpg" alt="Advantage Image 5">
-            <img src="img/home/advantage_gallery/1.jpg" alt="Advantage Image 6">
-        </div>
-        <div class="hp-advantages__gallery-text">
-            <div class="hp-advantages__gallery-text_top">
-
-                <div class="gallery-status-bar-container gallery-status-bar-container_advantages js-hp-gallery_advantages_container">
-                    <div class="gallery_current-slide js-gallery_current-slide">01</div>
-                    <div class="gallery-status-bar gallery-status-bar_advantages js-gallery-status-bar">
-                        <div class="gallery-status-bar_loaded js-gallery-status-bar_loaded"></div>
-                    </div>
-                    <div class="gallery_total-slides js-gallery_total-slides">05</div>
-                </div>
-
-                <div class="W-logo W-logo_white W-logo_advantages">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 171.332 134.318">
-                        <path class="letter_W_left" d="M.76.677l57.1 132.39L116.065.668l-4.903.004-52.49 119.207L7.155.673z"/>
-                        <path class="letter_W_right" d="M55.26.508l57.1 132.39L170.565.5l-4.902.004-52.49 119.206L61.655.505z"/>
-                    </svg>
-                </div>
-                <h3 class="hp-advantages__heading">Переваги</h3>
-
+    <section class="wrapper">
+        <div class="hp-advantages">
+            <div class="hp-advantages__gallery js-hp-gallery_advantages">
+                <div class="hp-advanages__gallery_item hp-advanages__gallery_item-0"></div>
+                <div class="hp-advanages__gallery_item hp-advanages__gallery_item-1"></div>
+                <div class="hp-advanages__gallery_item hp-advanages__gallery_item-2"></div>
+                <div class="hp-advanages__gallery_item hp-advanages__gallery_item-3"></div>
+                <div class="hp-advanages__gallery_item hp-advanages__gallery_item-4"></div>
+                <div class="hp-advanages__gallery_item hp-advanages__gallery_item-5"></div>
             </div>
-            <div class="hp-advantages__gallery-text_bottom">
-                <p class="hp-advantages__gallery-paragraph">Вдале розташування у історичному центрі міста</p>
+            <div class="hp-advantages__gallery-text">
+                <a href="advantages.php">
+                    <div class="hp-advantages__gallery-text_top">
+                        <div class="gallery-status-bar-container gallery-status-bar-container_advantages js-hp-gallery_advantages_container">
+                            <div class="gallery_current-slide js-gallery_current-slide">01</div>
+                            <div class="gallery-status-bar gallery-status-bar_advantages js-gallery-status-bar">
+                                <div class="gallery-status-bar_loaded js-gallery-status-bar_loaded"></div>
+                            </div>
+                            <div class="gallery_total-slides js-gallery_total-slides">05</div>
+                        </div>
+
+                        <div class="W-logo W-logo_white W-logo_advantages">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 171.332 134.318">
+                                <path class="letter_W_left" d="M.76.677l57.1 132.39L116.065.668l-4.903.004-52.49 119.207L7.155.673z"/>
+                                <path class="letter_W_right" d="M55.26.508l57.1 132.39L170.565.5l-4.902.004-52.49 119.206L61.655.505z"/>
+                            </svg>
+                        </div>
+                        <h3 class="hp-advantages__heading">Переваги</h3>
+                        <span class="hp-advantages_arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="5.6456027mm" width="16.378967mm">
+                                <g transform="translate(-118.21429,-145.23871)"><path class="hp-arrow_main-line" d="m 118.21429,155.04077 58.03571,0" /><path class="hp-arrow__line" d="m 175.89286,154.97381 -6.80865,-6.55879" /><path class="hp-arrow__line" d="m 169.33222,161.88374 6.55879,-6.80865" /></g>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
+                <div class="hp-advantages__gallery-text_bottom">
+                    <p class="hp-advantages__gallery-paragraph">Вдале розташування у історичному центрі міста</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="hp-values wrapper">
-        <div class="hp-values__gallery js-hp-gallery_values">
-            <img src="img/home/values_gallery/1.jpg" alt="Value Image 1">
-            <img src="img/home/values_gallery/1.jpg" alt="Value Image 2">
-            <img src="img/home/values_gallery/1.jpg" alt="Value Image 3">
-            <img src="img/home/values_gallery/1.jpg" alt="Value Image 4">
-        </div>
-        <div class="hp-values__gallery-text">
-            <div class="hp-values__gallery-text_top">
-                <div class="gallery-status-bar-container gallery-status-bar-container_values js-hp-gallery_values_container">
-                    <div class="gallery_current-slide js-gallery_current-slide">01</div>
-                    <div class="gallery-status-bar gallery-status-bar_values js-gallery-status-bar">
-                        <div class="gallery-status-bar_loaded js-gallery-status-bar_loaded"></div>
+    <section class="wrapper">
+        <div class="hp-values">
+            <div class="hp-values__gallery js-hp-gallery_values">
+                <div class="hp-values__gallery_item hp-values__gallery_item-0"></div>
+                <div class="hp-values__gallery_item hp-values__gallery_item-1"></div>
+                <div class="hp-values__gallery_item hp-values__gallery_item-2"></div>
+                <div class="hp-values__gallery_item hp-values__gallery_item-3"></div>
+
+                </div>
+                <div class="hp-values__gallery-text">
+                    <div class="hp-values__gallery-text_top">
+                        <div class="gallery-status-bar-container gallery-status-bar-container_values js-hp-gallery_values_container">
+                            <div class="gallery_current-slide js-gallery_current-slide">01</div>
+                            <div class="gallery-status-bar gallery-status-bar_values js-gallery-status-bar">
+                                <div class="gallery-status-bar_loaded js-gallery-status-bar_loaded"></div>
+                            </div>
+                            <div class="gallery_total-slides js-gallery_total-slides">05</div>
+                        </div>
+                    <div class="W-logo W-logo_white W-logo_values">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 171.332 134.318">
+                            <path class="letter_W_left" d="M.76.677l57.1 132.39L116.065.668l-4.903.004-52.49 119.207L7.155.673z"/>
+                            <path class="letter_W_right" d="M55.26.508l57.1 132.39L170.565.5l-4.902.004-52.49 119.206L61.655.505z"/>
+                        </svg>
                     </div>
-                    <div class="gallery_total-slides js-gallery_total-slides">05</div>
-                </div>
+                    <h3 class="hp-values__heading">Pleasures</h3>
+                    <p class="hp-values__paragraph">Отримувати задоволення від життя – кожну хвилину</p>
 
-                <div class="W-logo W-logo_white W-logo_values">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 171.332 134.318">
-                        <path class="letter_W_left" d="M.76.677l57.1 132.39L116.065.668l-4.903.004-52.49 119.207L7.155.673z"/>
-                        <path class="letter_W_right" d="M55.26.508l57.1 132.39L170.565.5l-4.902.004-52.49 119.206L61.655.505z"/>
-                    </svg>
                 </div>
-                <h3 class="hp-values__heading">Pleasures</h3>
-                <p class="hp-values__paragraph">Отримувати задоволення від життя – кожну хвилину</p>
-
-            </div>
-            <div class="hp-values__gallery-text_bottom">
-                <h4 class="hp-values__gallery-sub-heading">Цінності</h4>
+                <a href="values.php">
+                    <div class="hp-values__gallery-text_bottom">
+                        <h4 class="hp-values__gallery-sub-heading">Цінності</h4>
+                        <span class="hp-values_arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="5.6456027mm" width="16.378967mm">
+                                <g transform="translate(-118.21429,-145.23871)"><path class="hp-arrow_main-line" d="m 118.21429,155.04077 58.03571,0" /><path class="hp-arrow__line" d="m 175.89286,154.97381 -6.80865,-6.55879" /><path class="hp-arrow__line" d="m 169.33222,161.88374 6.55879,-6.80865" /></g>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -424,46 +444,48 @@
         </div>
     </section>
 
-    <section class="hp-other-projects wrapper">
-        <h3 class="hp-other-projects__heading">Інші проекти забудовника</h3>
-        <div class="hp-other-projects-container">
-            <ul class="hp-other-projects-gallery">
-                <li>
-                    <a href="https://chicago.kiev.ua/" target="_blank"> 
-                        <img src="/img/home/projects_gallery/chicago_logo.svg" alt="Chicago Logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="http://new-york.com.ua/" target="_blank"> 
-                        <img src="/img/home/projects_gallery/new_york_logo.svg" alt="New York Logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://sanfrancisco.com.ua/" target="_blank"> 
-                        <img src="/img/home/projects_gallery/san_francisco_logo.svg" alt="San Francisco Logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="http://kandinsky-residence.com.ua/" target="_blank"> 
-                        <img src="/img/home/projects_gallery/kandinsky_logo.svg" alt="kandinskiy Logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="http://resident.house/" target="_blank"> 
-                        <img src="/img/home/projects_gallery/resident_logo.svg" alt="Resident Logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://rybalsky.com.ua/" target="_blank"> 
-                        <img src="/img/home/projects_gallery/rybalsky_logo.svg" alt="kandinskiy Logo">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://einstein.house/" target="_blank"> 
-                        <img src="/img/home/projects_gallery/einstein_logo.svg" alt="Einstein Logo">
-                    </a>
-                </li>
-            </ul>
+    <section class="wrapper">
+        <div class="hp-other-projects">
+            <h3 class="hp-other-projects__heading">Інші проекти забудовника</h3>
+            <div class="hp-other-projects-container">
+                <ul class="hp-other-projects-gallery">
+                    <li>
+                        <a href="https://chicago.kiev.ua/" target="_blank"> 
+                            <img src="/img/home/projects_gallery/chicago_logo.svg" alt="Chicago Logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://new-york.com.ua/" target="_blank"> 
+                            <img src="/img/home/projects_gallery/new_york_logo.svg" alt="New York Logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://sanfrancisco.com.ua/" target="_blank"> 
+                            <img src="/img/home/projects_gallery/san_francisco_logo.svg" alt="San Francisco Logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://kandinsky-residence.com.ua/" target="_blank"> 
+                            <img src="/img/home/projects_gallery/kandinsky_logo.svg" alt="kandinskiy Logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://resident.house/" target="_blank"> 
+                            <img src="/img/home/projects_gallery/resident_logo.svg" alt="Resident Logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://rybalsky.com.ua/" target="_blank"> 
+                            <img src="/img/home/projects_gallery/rybalsky_logo.svg" alt="kandinskiy Logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://einstein.house/" target="_blank"> 
+                            <img src="/img/home/projects_gallery/einstein_logo.svg" alt="Einstein Logo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
 

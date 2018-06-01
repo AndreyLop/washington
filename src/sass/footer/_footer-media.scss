@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1200px) {
+
+
+} // 1200 end
+
+@media only screen and (max-width: 1024px) {
+
+    .b-nav__part {
+        width: 33%;
+    }
+
+    .b-nav__part_about {
+        order: 0;
+    }
+    .b-nav__part_choose {
+        order: 1;
+    }
+    .b-nav__part_construction {
+        order: 3;
+        margin-top: -50px;
+    }
+    .b-nav__part_sales-dep {
+        order: 2;
+    }
+
+} // 1024 end
